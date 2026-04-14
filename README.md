@@ -43,7 +43,7 @@ cd d:\M65\Cypress\custom-website-by-yogesh
 npm run dev
 ```
 
-> App runs on **http://localhost:5173**
+> App runs on **https://calendar-yogesh.vercel.app/**
 
 ### Step 2 — Run Cypress
 
