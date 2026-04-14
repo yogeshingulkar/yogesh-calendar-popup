@@ -1,0 +1,13 @@
+{
+  "name": "yogesh-calendar-popup-cypress",
+  "version": "1.0.0",
+  "description": "Cypress automation tests for React DatePicker calendar popup",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed --no-exit"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
