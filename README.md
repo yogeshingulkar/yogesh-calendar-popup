@@ -1,16 +1,16 @@
-# 🗓️ Yogesh Automation — Calendar Popup Cypress Tests
+# Yogesh Automation - Calendar Popup Cypress Tests
 
 Cypress E2E automation suite for the **React DatePicker** calendar popup app.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Calendar-popup/
 ├── cypress/
 │   ├── e2e/
-│   │   └── calendar_popup.cy.js   ← 🔥 All 7 test cases
+│   │   └── calendar_popup.cy.js   ← All 7 test cases
 │   └── support/
 │       ├── commands.js             ← Custom commands
 │       └── e2e.js                  ← Global support entry
@@ -20,7 +20,7 @@ Calendar-popup/
 
 ---
 
-## ✅ Test Cases
+## Test Cases
 
 | ID     | Test Case                              | Selector Used                              |
 |--------|----------------------------------------|--------------------------------------------|
@@ -62,7 +62,7 @@ npm run cy:run:headed
 
 ---
 
-## 🧠 DOM Reference (Real Selectors)
+## DOM Reference (Real Selectors)
 
 ```
 .react-datepicker                    → Entire calendar widget
@@ -80,7 +80,7 @@ npm run cy:run:headed
 
 ---
 
-## 🛠️ Custom Commands
+## Custom Commands
 
 ```javascript
 // Select a calendar day by number
