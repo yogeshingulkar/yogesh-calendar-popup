@@ -14,7 +14,7 @@ Calendar-popup/
 │   └── support/
 │       ├── commands.js             ← Custom commands
 │       └── e2e.js                  ← Global support entry
-├── cypress.config.js               ← Cypress config (baseUrl: localhost:5173)
+├── cypress.config.js               ← Cypress config (baseUrl: https://calendar-yogesh.vercel.app/)
 └── package.json
 ```
 
