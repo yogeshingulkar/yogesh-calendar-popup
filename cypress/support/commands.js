@@ -1,10 +1,3 @@
-// ============================================================
-// Cypress Support — commands.js
-// ============================================================
-// Add custom Cypress commands here.
-// Examples: cy.login(), cy.selectDate(), etc.
-// ============================================================
-
 Cypress.Commands.add("selectCalendarDay", (dayNumber) => {
   cy.get(".react-datepicker__day")
     .not(".react-datepicker__day--disabled")
